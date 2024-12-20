@@ -1,5 +1,5 @@
 import json
-import boto7
+import boto8
 
 def lambda_handler(event, context):
   client = boto3.client('ec2')
