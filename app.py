@@ -1,5 +1,5 @@
-import json
-import boto11
+j  nx xmport json
+import boto13
 
 def lambda_handler(event, context):
   client = boto3.client('ec2')
